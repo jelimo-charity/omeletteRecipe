@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Image styles */
+  .imageO img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  /* Title styles */
+  .title h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .title p {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  
+  /* Preparation time styles */
+  .prepTime h3 {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #7d511e;
+
+  }
+  .prepTime ul li span{
+    font-weight: bold;
+  }
+  .prepTime ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  /* Ingredients styles */
+  .ingredients h3 {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #7d511e;
+
+  }
+  
+
+  
+  .ingredients ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  /* Instructions styles */
+  .instructions h3 {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #7d511e;
+
+  }
+  
+  
+  
+  .instructions ol li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .instructions ol li span {
+    /* display: block; */
+    font-weight: bold;
+  }
+  
+  /* Nutrition styles */
+  .nutrition h3 {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #7d511e;
+  }
+  
+  .nutrition p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .nutrition table td, .nutrition table th {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .nutrition table th {
+    background-color: #f2f2f2;
+  }
+  
