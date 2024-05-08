@@ -1,45 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Body styles */
   body {
     font-family: Arial, sans-serif;
   }
   
-  /* Container styles */
   .container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
   }
   
-  /* Image styles */
   .imageO img {
     max-width: 100%;
     height: auto;
     display: block;
     margin-bottom: 20px;
+    border-radius: 10px;
   }
   
-  /* Title styles */
   .title h1 {
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 10px;
+    font-family: "Platypi", serif;
   }
   
   .title p {
     font-size: 16px;
     line-height: 1.2;
   }
-  
-  /* Preparation time styles */
+  .prepTime{
+    background-color: #faebf0;
+    padding: 10px 0px 20px 35px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
   .prepTime h3 {
     font-size: 28px;
-    margin-top: 20px;
-    color: #7d511e;
+    margin-bottom: 10px;
+    color: #7d2258;
 
   }
   .prepTime ul li span{
@@ -48,12 +53,16 @@
   .prepTime ul li {
     font-size: 16px;
     margin-bottom: 5px;
+    line-height: 1.5;
+    list-style-type: disc;
   }
-  
-  /* Ingredients styles */
+  .prepTime ul li::marker{
+    color: #7d2258;
+  }
   .ingredients h3 {
     font-size: 28px;
     margin-top: 20px;
+    margin-bottom: 10px;
     color: #7d511e;
 
   }
@@ -62,13 +71,16 @@
   
   .ingredients ul li {
     font-size: 16px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    line-height: 1.5;
   }
-  
-  /* Instructions styles */
+  .ingredients ul li::marker{
+    color: #7d511e;
+  }
   .instructions h3 {
     font-size: 28px;
     margin-top: 20px;
+    margin-bottom: 10px;
     color: #7d511e;
 
   }
@@ -79,16 +91,19 @@
     font-size: 16px;
     margin-bottom: 10px;
   }
-  
+  .instructions ol li::marker{
+    color: #7d511e;
+  }
   .instructions ol li span {
-    /* display: block; */
     font-weight: bold;
   }
-  
-  /* Nutrition styles */
+  hr{
+    width: 100%;
+  }
   .nutrition h3 {
     font-size: 28px;
     margin-top: 20px;
+    margin-bottom: 10px;
     color: #7d511e;
   }
   
@@ -103,13 +118,12 @@
     margin-bottom: 20px;
   }
   
-  .nutrition table td, .nutrition table th {
+  .nutrition table td{
     border-bottom: 1px solid #ddd;
     padding: 8px;
     text-align: left;
   }
-  
-  .nutrition table th {
-    background-color: #f2f2f2;
+  .quantity{
+    color: #7d511e;
   }
   
